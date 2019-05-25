@@ -1,0 +1,82 @@
+/********** Base styles **********/
+* {
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+}
+
+h1 {
+	font-size: 175%;
+	padding: 20px;
+	text-align: center;
+	font-weight: 900;
+	font-style: italic;
+	font-variant: small-caps;
+}
+
+div.container {
+	border: 3px solid black;
+	width: 40%;
+	position: relative;
+	margin: 1%;
+}
+
+p.subtitle {
+	float: right;
+	border-left: 3px solid black;
+	border-bottom: 3px solid black;
+	width: 40%;
+	margin: 0px;
+	padding: 5px;
+	text-align: center;
+	font-size: 125%;
+	font-weight: 700;
+
+}
+
+p.text {
+	clear: right;
+	margin: 0px;
+	padding: 15px;
+}
+
+#sub1 {
+	background-color: #02FF98;
+}
+
+#sub2 {
+	background-color: #FF7502;
+}
+
+#sub3 {
+	background-color: #029BFF;
+}
+
+
+/********** Desktop View **********/
+@media (min-width: 992px) {
+	div.container {
+		float: left;
+		width: 31.3%;
+	}
+}
+
+
+/********** Tablet View **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	#d1, #d2 {
+		float: left;
+		width: 48%;
+	}
+	#d3 {
+		width: 98%;
+		clear: both;
+	}
+}
+
+/********** Mobile View **********/
+@media (max-width: 767px) {
+	div.container {
+		width: 98%;
+	}
+}
