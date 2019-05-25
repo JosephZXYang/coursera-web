@@ -15,7 +15,7 @@ h1 {
 }
 
 div.container {
-	border: 3px solid black;
+	border: 1px solid black;
 	width: 40%;
 	position: relative;
 	margin: 1%;
@@ -24,8 +24,8 @@ div.container {
 
 p.subtitle {
 	float: right;
-	border-left: 3px solid black;
-	border-bottom: 3px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
 	width: 40%;
 	margin: 0px;
 	padding: 5px;
