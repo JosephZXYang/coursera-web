@@ -1,0 +1,25 @@
+body {
+	font-size: 16px;
+  	color: #000000;
+  	background-color: #FFFFFF;
+  	font-family: 'Varela Round', sans-serif;
+}
+
+#header-nav {
+	margin: 0px;
+	background-color: #B8BDBD;
+
+}
+
+#title {
+	font-size: 24px;
+  	color: #000000;
+  	font-weight: bold;
+  	font-family: 'Cabin', sans-serif;
+  	margin: 0px;
+}
+
+.container {
+	margin: 0px;
+
+}
