@@ -1,3 +1,4 @@
+/**************** Body ****************/
 body {
 	font-size: 16px;
   	color: #000000;
@@ -5,10 +6,12 @@ body {
   	font-family: 'Varela Round', sans-serif;
 }
 
+/**************** Navigation Bar ****************/
 #header-nav {
 	margin: 0px;
 	background-color: #B8BDBD;
-
+	border-radius: 0;
+	border: 0;
 }
 
 #title {
@@ -19,7 +22,60 @@ body {
   	margin: 0px;
 }
 
-.container {
+#head-nav.container {
 	margin: 0px;
 
+}
+
+#collapsable-nav {
+	padding: 0px;
+	border: 0px;
+	background-color: #000000;
+}
+
+#nav-list {
+	margin: 0px;
+}
+
+#collapsable-nav li {
+	background-color: #E5E5BB;
+	text-align: center;
+	margin: 1px;
+}
+
+/**************** Contents ****************/
+#main-contents {
+	width: 100%;
+}
+
+#menu-title {
+	font-weight: bold;
+}
+
+section {
+	height: 1000px;
+	width: 100%;
+	overflow: auto;
+
+}
+
+.grid-tile {
+	background-color: #B8BDBD;
+	padding: 15px;
+	margin: 15px;
+	position: relative;
+}
+
+.grid-title{
+	font-size: 1.3em;
+	font-weight: bold;
+	padding: 3px;
+}
+
+.grid-contents {
+	border: 3px;
+}
+
+.grid-link {
+	text-align: right;
 }
