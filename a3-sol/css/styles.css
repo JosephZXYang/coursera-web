@@ -53,10 +53,7 @@ body {
 }
 
 section {
-	height: 1000px;
 	width: 100%;
-	overflow: auto;
-
 }
 
 .grid-tile {
@@ -78,4 +75,11 @@ section {
 
 .grid-link {
 	text-align: right;
+}
+
+/***************** Medium Device ******************/
+@media (min-width: 768px) {
+	section {
+		height: 1000px;
+	}
 }
